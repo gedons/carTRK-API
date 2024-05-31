@@ -12,7 +12,7 @@ const { initSocket } = require('./config/socket');
 dotenv.config();
 
 const corsOptions = {
-    origin: 'https://cartrk.vercel.app/', 
+    origin: 'https://cartrk.vercel.app', 
    // origin: 'http://localhost:5173', 
     credentials: true,
   };
